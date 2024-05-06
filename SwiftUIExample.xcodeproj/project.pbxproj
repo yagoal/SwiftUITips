@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2011761F2BE6EBB400F0148E /* SwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011761E2BE6EBB400F0148E /* SwiftUIExampleApp.swift */; };
-		201176212BE6EBB400F0148E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201176202BE6EBB400F0148E /* ContentView.swift */; };
+		201176212BE6EBB400F0148E /* StateBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201176202BE6EBB400F0148E /* StateBinding.swift */; };
 		201176232BE6EBB600F0148E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201176222BE6EBB600F0148E /* Assets.xcassets */; };
 		201176272BE6EBB600F0148E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201176262BE6EBB600F0148E /* Preview Assets.xcassets */; };
+		201176302BE90B8900F0148E /* AddressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011762F2BE90B8900F0148E /* AddressViewModel.swift */; };
+		201176322BE90B9B00F0148E /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201176312BE90B9B00F0148E /* AddressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2011761B2BE6EBB400F0148E /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2011761E2BE6EBB400F0148E /* SwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleApp.swift; sourceTree = "<group>"; };
-		201176202BE6EBB400F0148E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		201176202BE6EBB400F0148E /* StateBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBinding.swift; sourceTree = "<group>"; };
 		201176222BE6EBB600F0148E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		201176242BE6EBB600F0148E /* SwiftUIExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIExample.entitlements; sourceTree = "<group>"; };
 		201176262BE6EBB600F0148E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2011762F2BE90B8900F0148E /* AddressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewModel.swift; sourceTree = "<group>"; };
+		201176312BE90B9B00F0148E /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,9 @@
 		2011761D2BE6EBB400F0148E /* SwiftUIExample */ = {
 			isa = PBXGroup;
 			children = (
+				2011762D2BE9088800F0148E /* FirstExample */,
+				2011762E2BE90AAC00F0148E /* SecondExample */,
 				2011761E2BE6EBB400F0148E /* SwiftUIExampleApp.swift */,
-				201176202BE6EBB400F0148E /* ContentView.swift */,
 				201176222BE6EBB600F0148E /* Assets.xcassets */,
 				201176242BE6EBB600F0148E /* SwiftUIExample.entitlements */,
 				201176252BE6EBB600F0148E /* Preview Content */,
@@ -67,6 +72,23 @@
 				201176262BE6EBB600F0148E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2011762D2BE9088800F0148E /* FirstExample */ = {
+			isa = PBXGroup;
+			children = (
+				201176202BE6EBB400F0148E /* StateBinding.swift */,
+			);
+			path = FirstExample;
+			sourceTree = "<group>";
+		};
+		2011762E2BE90AAC00F0148E /* SecondExample */ = {
+			isa = PBXGroup;
+			children = (
+				2011762F2BE90B8900F0148E /* AddressViewModel.swift */,
+				201176312BE90B9B00F0148E /* AddressView.swift */,
+			);
+			path = SecondExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				201176212BE6EBB400F0148E /* ContentView.swift in Sources */,
+				201176212BE6EBB400F0148E /* StateBinding.swift in Sources */,
+				201176322BE90B9B00F0148E /* AddressView.swift in Sources */,
 				2011761F2BE6EBB400F0148E /* SwiftUIExampleApp.swift in Sources */,
+				201176302BE90B8900F0148E /* AddressViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
