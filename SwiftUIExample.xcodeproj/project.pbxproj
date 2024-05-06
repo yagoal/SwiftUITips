@@ -56,8 +56,8 @@
 		2011761D2BE6EBB400F0148E /* SwiftUIExample */ = {
 			isa = PBXGroup;
 			children = (
-				2011762D2BE9088800F0148E /* FirstExample */,
-				2011762E2BE90AAC00F0148E /* SecondExample */,
+				2011762D2BE9088800F0148E /* #1 - State-Binding */,
+				2011762E2BE90AAC00F0148E /* #2 - Publisher */,
 				2011761E2BE6EBB400F0148E /* SwiftUIExampleApp.swift */,
 				201176222BE6EBB600F0148E /* Assets.xcassets */,
 				201176242BE6EBB600F0148E /* SwiftUIExample.entitlements */,
@@ -74,21 +74,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2011762D2BE9088800F0148E /* FirstExample */ = {
+		2011762D2BE9088800F0148E /* #1 - State-Binding */ = {
 			isa = PBXGroup;
 			children = (
 				201176202BE6EBB400F0148E /* StateBinding.swift */,
 			);
-			path = FirstExample;
+			path = "#1 - State-Binding";
 			sourceTree = "<group>";
 		};
-		2011762E2BE90AAC00F0148E /* SecondExample */ = {
+		2011762E2BE90AAC00F0148E /* #2 - Publisher */ = {
 			isa = PBXGroup;
 			children = (
 				2011762F2BE90B8900F0148E /* AddressViewModel.swift */,
 				201176312BE90B9B00F0148E /* AddressView.swift */,
 			);
-			path = SecondExample;
+			path = "#2 - Publisher";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
