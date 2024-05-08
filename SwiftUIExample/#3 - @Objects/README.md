@@ -1,7 +1,7 @@
 ### 🔄 Entendendo @StateObject, @ObservedObject e @EnvironmentObject no SwiftUI: Gerenciando o Estado Eficazmente!
 
 **Introdução:**
-Olá, pessoal! 🚀 Hoje, vamos mergulhar nos três property wrappers do SwiftUI que são fundamentais para o gerenciamento de estado: `@StateObject`, `@ObservedObject`, e `@EnvironmentObject`. 
+Olá, pessoal! 🚀 Vamos mergulhar nos três property wrappers do SwiftUI que são fundamentais para o gerenciamento de estado: `@StateObject`, `@ObservedObject`, e `@EnvironmentObject`. 
 Compreender essas ferramentas é crucial para criar aplicativos robustos e responsivos em SwiftUI.
 
 **Explicação Teórica:**
