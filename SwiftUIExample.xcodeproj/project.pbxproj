@@ -13,6 +13,8 @@
 		201176272BE6EBB600F0148E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201176262BE6EBB600F0148E /* Preview Assets.xcassets */; };
 		201176302BE90B8900F0148E /* AddressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011762F2BE90B8900F0148E /* AddressViewModel.swift */; };
 		201176322BE90B9B00F0148E /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201176312BE90B9B00F0148E /* AddressView.swift */; };
+		20B414722BEAC143005F5640 /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B414712BEAC143005F5640 /* PropertyWrappers.swift */; };
+		20B4172E2BEAEEFD005F5640 /* HelperObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B4172D2BEAEEFD005F5640 /* HelperObjects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		201176262BE6EBB600F0148E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2011762F2BE90B8900F0148E /* AddressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewModel.swift; sourceTree = "<group>"; };
 		201176312BE90B9B00F0148E /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		20B414712BEAC143005F5640 /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
+		20B4172D2BEAEEFD005F5640 /* HelperObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperObjects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		2011761D2BE6EBB400F0148E /* SwiftUIExample */ = {
 			isa = PBXGroup;
 			children = (
+				20B414702BEAC114005F5640 /* #3 - @Objects */,
 				2011762D2BE9088800F0148E /* #1 - State-Binding */,
 				2011762E2BE90AAC00F0148E /* #2 - Publisher */,
 				2011761E2BE6EBB400F0148E /* SwiftUIExampleApp.swift */,
@@ -89,6 +94,15 @@
 				201176312BE90B9B00F0148E /* AddressView.swift */,
 			);
 			path = "#2 - Publisher";
+			sourceTree = "<group>";
+		};
+		20B414702BEAC114005F5640 /* #3 - @Objects */ = {
+			isa = PBXGroup;
+			children = (
+				20B414712BEAC143005F5640 /* PropertyWrappers.swift */,
+				20B4172D2BEAEEFD005F5640 /* HelperObjects.swift */,
+			);
+			path = "#3 - @Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +178,8 @@
 				201176212BE6EBB400F0148E /* StateBinding.swift in Sources */,
 				201176322BE90B9B00F0148E /* AddressView.swift in Sources */,
 				2011761F2BE6EBB400F0148E /* SwiftUIExampleApp.swift in Sources */,
+				20B414722BEAC143005F5640 /* PropertyWrappers.swift in Sources */,
+				20B4172E2BEAEEFD005F5640 /* HelperObjects.swift in Sources */,
 				201176302BE90B8900F0148E /* AddressViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
